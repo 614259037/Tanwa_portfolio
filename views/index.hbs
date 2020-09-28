@@ -1,0 +1,50 @@
+<div class="con">
+    <div class="header">
+        <h1 align=center>My ProFile
+        </h1>
+    </div>
+
+    <div class="column1">
+        <div class="img1">
+            <img style="border-radius: 10px" src="img/img.png" alt="" width="60%"  >
+        </div> &ensp;&ensp;
+        <div class="pro">
+            <h2>Personal information</h2>
+            {{#with myData.aboutme}}
+            <p> <b>First-Last Name</b> :{{FullName}} <br>
+                <b>Nickname</b>: {{nickname}}<br>
+                <b>Age</b> : {{Age}}<br>
+                <b>Birthday</b> : {{Birthday}} <br>
+                <b>Address</b> : {{Address}}<br>
+
+            </p>
+        </div>
+
+
+    </div>
+    <div class="column2">
+        <h2> Educational history</h2>
+        <p> <b>Current education</b> : {{education}} <br><br>
+            <b>lowersecondaryschool </b> : {{lowersecondaryschool}} <br><br>
+            <b>uppersecondaryschool </b> : {{uppersecondaryschool}} <br><br>
+
+        </p>
+    </div>
+
+    <div class="column3">
+        <h2> contact </h2>
+        <p> <b>Phone number</b> : {{Phone}} <br>
+            <b>Email </b> : {{Email}}
+            <br </p>
+            <!-- <a href="skil.html"><button class="button button1">Skil</button></a> -->
+            <br>
+    </div>
+    {{/with}}
+
+</div>
+<center>
+    <a href="/" class="button button1"><i class="fa fa-home"></i></a>
+
+    <a href="/skill" class="button button2"><i class="fa fa-file"></i></a>
+</center>
+<br>
