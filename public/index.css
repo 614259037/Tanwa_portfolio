@@ -210,19 +210,19 @@ p {
     .column1 {
     column-count: 2;
     width: 50%;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 .column2 {
     column-count: 1;
     width: 50%;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 .column3 {
     column-count: 1;
     width: 50%;
-    margin-left: 15%;
+    margin-left: 10%;
 }
     .pro {
     font-size: 9px;
@@ -328,19 +328,19 @@ p {
     .column1 {
     column-count: 2;
     width: 50%;
-    margin-left: 25%;
+    margin-left: 18%;
 }
 
 .column2 {
     column-count: 1;
     width: 50%;
-    margin-left: 25%;
+    margin-left: 18%;
 }
 
 .column3 {
     column-count: 1;
     width: 50%;
-    margin-left: 25%;
+    margin-left: 18%;
 }
     .pro {
     font-size: 13px;
@@ -387,19 +387,19 @@ p {
     .column1 {
     column-count: 2;
     width: 50%;
-    margin-left: 30%;
+    margin-left: 20%;
 }
 
 .column2 {
     column-count: 1;
     width: 50%;
-    margin-left: 30%;
+    margin-left: 20%;
 }
 
 .column3 {
     column-count: 1;
     width: 50%;
-    margin-left: 30%;
+    margin-left: 20%;
 }
     .pro {
     font-size: 15px;
