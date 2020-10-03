@@ -95,12 +95,6 @@ a {
     transition: 0.1s;
 }
 
-.con {
-    margin: 50px;
-    border: 5px solid rgb(57, 68, 70);
-    background-image: linear-gradient(-80deg, #fafafa, #fafafa, #fafafa);
-}
-
 .button:active {
     background-color: #4972ac;
     transform: translateY(4px);
@@ -142,3 +136,192 @@ p {
     text-shadow: rgba(218, 133, 133, 0.959) 1px 3px 3px;
 }
 
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 0px 45px;
+        width: 70%;
+    }
+    .Text {
+        margin: 2px 45px;
+        font-size: 19px;
+        padding: 10 px;
+        margin-top: 40px;
+    }
+    .button1 {
+        padding: 5px;
+        height: 50px;
+        width: 125px;
+        margin: 5px;
+        margin-right: 20px;
+    }
+    .button2 {
+        padding: 5px;
+        height: 50px;
+        width: 125px;
+        margin: 5px;
+        margin-right: 20px;
+    }
+    .header {
+        font-size: 14px;
+        margin-top: 14px;
+    }
+    .pro {
+        font-size: 6px;
+        float: left;
+    }
+    p {
+        font-size: 6px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        margin: 0px 70px;
+        width: 70%;
+    }
+    .Text {
+        margin: 4px 70px;
+        font-size: 21px;
+        padding: 15 px;
+        margin-top: 40px;
+    }
+    .button1 {
+        padding: 10px;
+        height: 50px;
+        width: 145px;
+        margin: 5px;
+        margin-right: 40px;
+    }
+    .button2 {
+        padding: 10px;
+        height: 50px;
+        width: 145px;
+        margin: 5px;
+        margin-right: 40px;
+    }
+    .header {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+    .pro {
+        font-size: 8px;
+        float: left;
+    }
+    p {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        margin: 0px 120px;
+        width: 70%;
+    }
+    .Text {
+        margin: 6px 120px;
+        font-size: 23px;
+        padding: 20 px;
+        margin-top: 40px;
+    }
+    .button1 {
+        padding: 15px;
+        height: 60px;
+        width: 165px;
+        margin: 5px;
+        margin-right: 60px;
+    }
+    .button2 {
+        padding: 15px;
+        height: 60px;
+        width: 165px;
+        margin: 5px;
+        margin-right: 60px;
+    }
+    .header {
+        font-size: 18px;
+        margin-top: 18px;
+    }
+    .pro {
+        font-size: 10px;
+        float: left;
+    }
+    p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        margin: 0px 170px;
+        width: 70%;
+    }
+    .Text {
+        margin: 8px 170px;
+        font-size: 25px;
+        padding: 25 px;
+        margin-top: 40px;
+    }
+    .button1 {
+        padding: 20px;
+        height: 60px;
+        width: 175px;
+        margin: 5px;
+        margin-right: 80px;
+    }
+    .button2 {
+        padding: 20px;
+        height: 60px;
+        width: 175px;
+        margin: 5px;
+        margin-right: 80px;
+    }
+    .header {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .pro {
+        font-size: 12px;
+        float: left;
+    }
+    p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        margin: 0px 170px;
+        width: 70%;
+    }
+    .Text {
+        margin: 8px 170px;
+        font-size: 25px;
+        padding: 25 px;
+        margin-top: 40px;
+    }
+    .button1 {
+        padding: 20px;
+        height: 60px;
+        width: 175px;
+        margin: 5px;
+        margin-right: 80px;
+    }
+    .button2 {
+        padding: 20px;
+        height: 60px;
+        width: 175px;
+        margin: 5px;
+        margin-right: 80px;
+    }
+    .header {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .pro {
+        font-size: 15px;
+        float: left;
+    }
+    p {
+        font-size: 15px;
+    }
+}
