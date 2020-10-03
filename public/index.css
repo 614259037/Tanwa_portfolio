@@ -135,7 +135,11 @@ p {
     color: transparent;
     text-shadow: rgba(218, 133, 133, 0.959) 1px 3px 3px;
 }
-
+ .con {
+                                            margin: 50px;
+                                            border: 5px solid rgb(57, 68, 70);
+                                            background-image: linear-gradient(-80deg, #fafafa, #fafafa, #fafafa);
+                                        }
 @media only screen and (max-width: 600px) {
     .container {
         margin: 0px 45px;
@@ -324,4 +328,5 @@ p {
     p {
         font-size: 15px;
     }
+
 }
