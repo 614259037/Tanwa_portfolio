@@ -141,3 +141,240 @@ p {
     color: transparent;
     text-shadow: rgba(218, 133, 133, 0.959) 1px 3px 3px;
 }
+@media only screen and (max-width: 600px) {
+    .col {
+        width: 100%;
+    }
+    .container {
+        margin: 0px 45px;
+        width: 70%;
+    }
+    .Text {
+        margin: 2px 45px;
+        font-size: 19px;
+        padding: 10 px;
+        margin-top: 40px;
+    }
+    .button1 {
+        padding: 5px;
+        height: 50px;
+        width: 125px;
+        margin: 5px;
+        margin-right: 20px;
+    }
+    .button2 {
+        padding: 5px;
+        height: 50px;
+        width: 125px;
+        margin: 5px;
+        margin-right: 20px;
+    }
+    .header {
+        font-size: 14px;
+        margin-top: 14px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .col {
+        width: 100%;
+    }
+    .container {
+        margin: 0px 70px;
+        width: 70%;
+    }
+    .Text {
+        margin: 4px 70px;
+        font-size: 21px;
+        padding: 15 px;
+        margin-top: 40px;
+    }
+    .button1 {
+        padding: 10px;
+        height: 50px;
+        width: 145px;
+        margin: 5px;
+        margin-right: 40px;
+    }
+    .button2 {
+        padding: 10px;
+        height: 50px;
+        width: 145px;
+        margin: 5px;
+        margin-right: 40px;
+    }
+    .header {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+    .column1 {
+    column-count: 2;
+    width: 50%;
+    margin-left: 15%;
+}
+
+.column2 {
+    column-count: 1;
+    width: 50%;
+    margin-left: 15%;
+}
+
+.column3 {
+    column-count: 1;
+    width: 50%;
+    margin-left: 15%;
+}
+}
+
+@media only screen and (min-width: 768px) {
+    .col {
+        width: 100%;
+    }
+    .container {
+        margin: 0px 120px;
+        width: 70%;
+    }
+    .Text {
+        margin: 6px 120px;
+        font-size: 23px;
+        padding: 20 px;
+        margin-top: 40px;
+    }
+    .button1 {
+        padding: 15px;
+        height: 60px;
+        width: 165px;
+        margin: 5px;
+        margin-right: 60px;
+    }
+    .button2 {
+        padding: 15px;
+        height: 60px;
+        width: 165px;
+        margin: 5px;
+        margin-right: 60px;
+    }
+    .header {
+        font-size: 18px;
+        margin-top: 18px;
+    }
+    .column1 {
+    column-count: 2;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.column2 {
+    column-count: 1;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.column3 {
+    column-count: 1;
+    width: 50%;
+    margin-left: 20%;
+}
+}
+
+@media only screen and (min-width: 992px) {
+    .col {
+        width: 100%;
+    }
+    .container {
+        margin: 0px 170px;
+        width: 70%;
+    }
+    .Text {
+        margin: 8px 170px;
+        font-size: 25px;
+        padding: 25 px;
+        margin-top: 40px;
+    }
+    .button1 {
+        padding: 20px;
+        height: 60px;
+        width: 175px;
+        margin: 5px;
+        margin-right: 80px;
+    }
+    .button2 {
+        padding: 20px;
+        height: 60px;
+        width: 175px;
+        margin: 5px;
+        margin-right: 80px;
+    }
+    .header {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .column1 {
+    column-count: 2;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.column2 {
+    column-count: 1;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.column3 {
+    column-count: 1;
+    width: 50%;
+    margin-left: 25%;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+    .col {
+        width: 100%;
+    }
+    .container {
+        margin: 0px 170px;
+        width: 70%;
+    }
+    .Text {
+        margin: 8px 170px;
+        font-size: 25px;
+        padding: 25 px;
+        margin-top: 40px;
+    }
+    .button1 {
+        padding: 20px;
+        height: 60px;
+        width: 175px;
+        margin: 5px;
+        margin-right: 80px;
+    }
+    .button2 {
+        padding: 20px;
+        height: 60px;
+        width: 175px;
+        margin: 5px;
+        margin-right: 80px;
+    }
+    .header {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .column1 {
+    column-count: 2;
+    width: 50%;
+    margin-left: 30%;
+}
+
+.column2 {
+    column-count: 1;
+    width: 50%;
+    margin-left: 30%;
+}
+
+.column3 {
+    column-count: 1;
+    width: 50%;
+    margin-left: 30%;
+}
+}
