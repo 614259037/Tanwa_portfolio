@@ -224,6 +224,14 @@ p {
     width: 50%;
     margin-left: 15%;
 }
+    .pro {
+    font-size: 9px;
+    float: left;
+}
+
+p {
+    font-size: 9px;
+}
 }
 
 @media only screen and (min-width: 768px) {
@@ -274,6 +282,14 @@ p {
     column-count: 1;
     width: 50%;
     margin-left: 20%;
+}
+    .pro {
+    font-size: 11px;
+    float: left;
+}
+
+p {
+    font-size: 11px;
 }
 }
 
@@ -326,6 +342,14 @@ p {
     width: 50%;
     margin-left: 25%;
 }
+    .pro {
+    font-size: 13px;
+    float: left;
+}
+
+p {
+    font-size: 13px;
+}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -376,5 +400,13 @@ p {
     column-count: 1;
     width: 50%;
     margin-left: 30%;
+}
+    .pro {
+    font-size: 15px;
+    float: left;
+}
+
+p {
+    font-size: 15px;
 }
 }
